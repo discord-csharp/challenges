@@ -6,7 +6,7 @@
 You are writing a software that allows users to design electrical circuits. You need to add a feature
 that will count the number of loose wire ends in the current design. The wire layout data is currently
 stored in a `string` with the characters ` `, `║`, `╠`, `╩`, `╦`, `═`, `╬`, `╣`, `╚`, `╝`, `╔`, `╗`, and `\n`.
-The `\n` character represents the end of the current horizontal dimension, the ' ' character represents a 
+The `\n` character represents the end of the current horizontal dimension, the `' '` character represents a 
 coordinate with no wires, and the rest `║ ╠ ╩ ╦ ═ ╬ ╣ ╚ ╝ ╔ ╗` represent various wire configurations.
 
 ### Sample input

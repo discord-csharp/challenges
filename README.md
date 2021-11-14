@@ -6,7 +6,7 @@ Want to Participate? Join the C# discord: <sub><a href="https://discord.gg/cshar
 
 |Challenge|Challenge Date|Contributor(s)|Source|
 |:-|:-|:-|:-|
-|[Wire Ends](src/Wire Ends)| |[@zacharypatten](https://github.com/ZacharyPatten)|_original_|
+|[Wire Ends](src/Wire%20Ends)| |[@zacharypatten](https://github.com/ZacharyPatten)|_original_|
 
 Contributions are welcome. :)
 
