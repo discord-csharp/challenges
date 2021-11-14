@@ -12,4 +12,4 @@ Contributions are welcome. :)
 
 ### Feedback
 
-If you have any feedback on the challenges, please open an issue on this repository, mention the challenge, and ping the contributor(s) of the challenge.
+If you have any feedback on the challenges, [please open an issue](https://github.com/discord-csharp/challenges/issues/new/choose), mention the challenge, and ping the contributor(s) of the challenge.
