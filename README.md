@@ -9,3 +9,7 @@ Want to Participate? Join the C# discord: <sub><a href="https://discord.gg/cshar
 |[Wire Ends](src/Wire Ends)|_todo_|@zacharyPatten|
 
 Contributions are welcome. :)
+
+### Feedback
+
+If you have any feedback on the challenges, please open an issue on this repository, mention the challenge, and ping the contributor(s) of the challenge.
