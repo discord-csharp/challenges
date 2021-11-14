@@ -17,7 +17,7 @@ string input =
     "║╚╝║\n" +
     "║╔╗║\n" +
     "╚══╝";
-// contains 4 disconnected wires
+// contains 4 disconnected wire ends
 ```
 
 ```cs
@@ -26,7 +26,7 @@ string input =
     "║║║║\n" +
     "║║║║\n" +
     "╚╝╚╝";
-// contains 2 disconnected wires
+// contains 2 disconnected wire ends
 ```
 
 ```cs
@@ -35,7 +35,7 @@ string input =
     "╔╝╚═╗\n" +
     "╚╗  ╚═╗\n" +
     " ╚════╝";
-// contains 0 disconnected wires
+// contains 0 disconnected wire ends
 ```
 
 ### Quick start
