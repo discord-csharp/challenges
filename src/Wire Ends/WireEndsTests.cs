@@ -12,7 +12,7 @@ namespace Wire_Ends
             // -----------------------
             // complete challenge here
             // -----------------------
-            throw new DELETEME();
+            throw new NotImplementedException(); // <- delete
         }
 
         [TestMethod]
@@ -185,13 +185,11 @@ namespace Wire_Ends
                     int actualOutput = CountWireEnds(input);
                     Assert.IsTrue(actualOutput == output);
                 }
-                catch (DELETEME)
+                catch (NotImplementedException)
                 {
                     Assert.Inconclusive();
                 }
             }
         }
-
-        class DELETEME : Exception { }
     }
 }
