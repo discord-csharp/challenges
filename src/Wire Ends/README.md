@@ -61,6 +61,10 @@ After you successfully complete the challenge, consider challenging yourself fur
 
 If you have any feedback on this challenge, please open an issue on this repository, mention this challenge, and ping the contributor(s) of this challenge.
 
-### Contributor(s) or Original Source
+### Contributor(s)
 
-This was an original challege contributed by <sub><a href="https://github.com/ZacharyPatten"><img src="https://img.shields.io/badge/Zachary-Patten-gray?style=flat-square&logo=github" title="Go To ZacharyPatten's Profile"/></a></sub>.
+- [@zacharypatten](https://github.com/ZacharyPatten)
+
+### Source
+
+This was an original challege. :)
