@@ -21,6 +21,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		.github\workflows\Continuous Integration.yml = .github\workflows\Continuous Integration.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{8E572F2B-D7C5-4884-8D71-FF8792961683}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\bug.md = .github\ISSUE_TEMPLATE\bug.md
+		.github\ISSUE_TEMPLATE\config.yml = .github\ISSUE_TEMPLATE\config.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F083909E-C980-4652-83EB-5B8D2FDD6699} = {98007B9A-D93C-48B6-A106-4BB24311A99F}
 		{AAAC3E3E-6216-4B2E-8FB1-30BE98072CDA} = {F083909E-C980-4652-83EB-5B8D2FDD6699}
+		{8E572F2B-D7C5-4884-8D71-FF8792961683} = {F083909E-C980-4652-83EB-5B8D2FDD6699}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4DCD346-170A-4C1F-A7B1-1E64AF69A039}
