@@ -180,16 +180,15 @@ namespace Wire_Ends
 
             foreach (var (input, output) in testCases)
             {
-                int actualOutput;
                 try
                 {
-                    actualOutput = CountWireEnds(input);
+                    int actualOutput = CountWireEnds(input);
+                    Assert.IsTrue(actualOutput == output);
                 }
                 catch (DELETEME)
                 {
-                    return;
+                    Assert.Inconclusive();
                 }
-                Assert.IsTrue(actualOutput == output);
             }
         }
 
