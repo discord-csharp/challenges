@@ -51,6 +51,8 @@ public int CountWireEnds(string s)
 }
 ```
 
+Unit tests are included here: [WireEndsTests.cs](WireEndsTests.cs)
+
 ### Challenge Yourself
 
 After you successfully complete the challenge, consider challenging yourself further...
