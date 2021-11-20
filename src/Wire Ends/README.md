@@ -86,7 +86,7 @@ Discord meta data. Do not edit. This is used for GitHub => Discord linking.
 	<td>Sample
 	<td>
     
-```cs 
+```cs
 string input =
 "╔══╗\n" +
 "║╚╝║\n" +
