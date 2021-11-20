@@ -15,6 +15,37 @@ public void Test()
 }
 ```
 
-[Read full challenge information on GitHub](https://github.com/discord-csharp/challenges/blob/main/src/2021-01-01-sample-challenge.md)
+### Feedback
 
-Take part in this challenge by meeting the specification, golfing your answer or providing the best performing code by benchmarking it (using Benchmark.NET). Post solutions to the solutions thread, and discuss anything else in the discussion thread.
+If you have any feedback on this challenge, please open an issue on this repository, mention this challenge, and ping the contributor(s) of this challenge.
+
+### Contributor(s)
+
+- [GitHub Username](https://github.com/)
+
+---
+
+Discord meta data. Do not edit. This is used for GitHub => Discord linking.
+
+<table>
+<tr>
+	<td>Name
+	<td>Name of the challenge
+<tr>
+	<td>Description
+	<td>Description of the challenge
+<tr>
+	<td>Sample
+	<td>
+    Some sample code
+
+```cs
+public void Test() => throw new NotImplementedException();
+```
+<tr>
+	<td>Contributed by
+	<td>Discord snowflakes, comma separated
+<tr>
+	<td>Self link
+	<td>https://github.com/discord-csharp/challenges/tree/main/src/
+</table>

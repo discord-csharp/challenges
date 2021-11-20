@@ -70,3 +70,43 @@ If you have any feedback on this challenge, please open an issue on this reposit
 ### Source
 
 This was an original challege. :)
+
+---
+
+Discord meta data. Do not edit. This is used for GitHub => Discord linking.
+
+<table>
+<tr>
+	<td>Name
+	<td>Wire Ends Challenge
+<tr>
+	<td>Description
+	<td>You are writing a software that allows users to design electrical circuits. You need to add a feature that will count the number of loose wire ends in the current design. The wire layout data is currently stored in a `string` with the characters ` `, `║`, `╠`, `╩`, `╦`, `═`, `╬`, `╣`, `╚`, `╝`, `╔`, `╗`, and `\n`. The `\n` character represents the end of the current horizontal dimension, the `' '` character represents a coordinate with no wires, and the rest `║ ╠ ╩ ╦ ═ ╬ ╣ ╚ ╝ ╔ ╗` represent various wire configurations.
+<tr>
+	<td>Sample
+	<td>
+    
+```cs 
+string input =
+"╔══╗\n" +
+"║╚╝║\n" +
+"║╔╗║\n" +
+"╚══╝";
+// contains 4 disconnected wire ends
+```
+
+```cs
+string input =
+    "║╔╗║\n" +
+    "║║║║\n" +
+    "║║║║\n" +
+    "╚╝╚╝";
+// contains 2 disconnected wire ends
+```
+<tr>
+	<td>Contributed by
+	<td>438382611929366537
+<tr>
+	<td>Self link
+	<td>https://github.com/discord-csharp/challenges/tree/main/src/Wire%20Ends
+</table>
