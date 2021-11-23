@@ -106,5 +106,5 @@ The equation for the vertical position of a projectile is `p = -.5*g*s^2 + v*s +
 	<td>438382611929366537
 <tr>
 	<td>Self link
-	<td>https://github.com/discord-csharp/challenges/tree/main/src/Wire%20Ends
+	<td>https://github.com/discord-csharp/challenges/tree/main/src/Robot%20Gravity
 </table>
