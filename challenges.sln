@@ -27,7 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEM
 		.github\ISSUE_TEMPLATE\config.yml = .github\ISSUE_TEMPLATE\config.yml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Robot Gravity", "src\Space Robot\Robot Gravity.csproj", "{98FAB7D8-0C64-43B0-B03C-9CF08BED9089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Robot Gravity", "src\Robot Gravity\Robot Gravity.csproj", "{98FAB7D8-0C64-43B0-B03C-9CF08BED9089}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

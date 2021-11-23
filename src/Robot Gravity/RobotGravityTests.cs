@@ -12,12 +12,11 @@ namespace Space_Robot
 			// -----------------------
 			// Complete challenge here.
 			//
-			// You are making a space robot to explore other planets. Your robot
-			// has a gravity sensor but you want to have a back up way to determine
-			// the current gravity in case the sensor is damaged. Your robot has the
-			// ability to jump and it has an height sensor. Use those features to
-			// determine the current acceleration due to gravity as a positive number
-			// within 0.1 units:
+			// You are making a robot to explore other planets. Your robot has a gravity sensor but you want to 
+			// have a back up way to determine the current gravity in case the sensor is damaged.Your robot has
+			// the ability to jump and it has an height sensor that asynchronously scans about every .01 seconds.
+			// Use those features to determine the current acceleration due to gravity as a positive number
+			// within 0.1 units.
 			//
 			// - robot.Jump
 			// - robot.MaxJumpForce
