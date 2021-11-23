@@ -23,7 +23,7 @@ The equation for the vertical position of a projectile is `p = -.5*g*s^2 + v*s +
 - `g` is acceleration due to gravity
 - `s` is time
 - `v` is initial velocity (in this case initial velocity is the parameter to `robot.Jump` divided by `robot.Mass`)
-- `i` is initial vertical (in this case i is always 0)
+- `i` is initial vertical position (in this case i is always 0)
 
 </details>
 
@@ -101,7 +101,7 @@ The equation for the vertical position of a projectile is `p = -.5*g*s^2 + v*s +
 - `g` is acceleration due to gravity
 - `s` is time
 - `v` is initial velocity (in this case initial velocity is the parameter to `robot.Jump` divided by `robot.Mass`)
-- `i` is initial vertical (in this case i is always 0)
+- `i` is initial vertical position (in this case i is always 0)
 
 </details>
 
