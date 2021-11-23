@@ -76,7 +76,7 @@ Discord meta data. Do not edit. This is used for GitHub => Discord linking.
 	<td>Sample
 	<td>
     
-Cloning the repoand complete the challenge in the MS Test project here: https://github.com/discord-csharp/challenges/tree/main/src/Robot%20Gravity/RobotGravityTests.cs
+Cloning the repo and complete the challenge in the MS Test project here: https://github.com/discord-csharp/challenges/tree/main/src/Robot%20Gravity/RobotGravityTests.cs
 
 ```cs
 public double DetermineGravity(Robot robot)
