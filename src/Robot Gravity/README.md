@@ -16,17 +16,20 @@ Use these members from `Robot robot`:
 - `robot.Mass`
 
 <details>
-<summary>Hint #1:</summary>
+<summary>Hint #1</summary>
+
 The equation for the vertical position of a projectile is `p = -.5*g*s^2 + v*s + i` where
 - `p` is vertical position
 - `g` is acceleration due to gravity
 - `s` is time
 - `v` is initial velocity (in this case initial velocity is the parameter to `robot.Jump` divided by `robot.Mass`)
 - `i` is initial vertical (in this case i is always 0)
+
 </details>
 
 <details>
-<summary>Hint #2:</summary>
+<summary>Hint #2</summary>
+
 `robot.HeightSensor` is an event. You need to make an event handler with the same method signature and subscribe to the event.
 
 ```cs
@@ -37,6 +40,7 @@ void HandleHeightSensor(double height, DateTime time)
 
 robot.HeightSensor += HandleHeightSensor;
 ```
+
 </details>
 
 ### Quick start
@@ -72,6 +76,8 @@ Discord meta data. Do not edit. This is used for GitHub => Discord linking.
 	<td>Sample
 	<td>
     
+Cloning the repoand complete the challenge in the MS Test project here: https://github.com/discord-csharp/challenges/tree/main/src/Robot%20Gravity/RobotGravityTests.cs
+
 ```cs
 public double DetermineGravity(Robot robot)
 {
@@ -88,18 +94,31 @@ public double DetermineGravity(Robot robot)
 ```
 
 <details>
-<summary>Hint #1:</summary>
+<summary>Hint #1</summary>
+
 The equation for the vertical position of a projectile is `p = -.5*g*s^2 + v*s + i` where
 - `p` is vertical position
 - `g` is acceleration due to gravity
 - `s` is time
 - `v` is initial velocity (in this case initial velocity is the parameter to `robot.Jump` divided by `robot.Mass`)
 - `i` is initial vertical (in this case i is always 0)
+
 </details>
 
 <details>
-<summary>Hint #2:</summary>
-`robot.HeightSensor` is an event. You need to make an event handler with the same method signature and subscribe to the event
+<summary>Hint #2</summary>
+
+`robot.HeightSensor` is an event. You need to make an event handler with the same method signature and subscribe to the event.
+
+```cs
+void HandleHeightSensor(double height, DateTime time)
+{
+	// some code here...
+}
+
+robot.HeightSensor += HandleHeightSensor;
+```
+
 </details>
 <tr>
 	<td>Contributed by
