@@ -5,28 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wire Ends", "src\Wire Ends\Wire Ends.csproj", "{5468530B-AA66-4594-A126-4884664BE91D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98007B9A-D93C-48B6-A106-4BB24311A99F}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-		.gitignore = .gitignore
-		CHALLENGE_TEMPLATE_README.md = CHALLENGE_TEMPLATE_README.md
-		LICENSE = LICENSE
-		README.md = README.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F083909E-C980-4652-83EB-5B8D2FDD6699}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{AAAC3E3E-6216-4B2E-8FB1-30BE98072CDA}"
-	ProjectSection(SolutionItems) = preProject
-		.github\workflows\Continuous Integration.yml = .github\workflows\Continuous Integration.yml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{8E572F2B-D7C5-4884-8D71-FF8792961683}"
-	ProjectSection(SolutionItems) = preProject
-		.github\ISSUE_TEMPLATE\bug.md = .github\ISSUE_TEMPLATE\bug.md
-		.github\ISSUE_TEMPLATE\config.yml = .github\ISSUE_TEMPLATE\config.yml
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Robot Gravity", "src\Robot Gravity\Robot Gravity.csproj", "{98FAB7D8-0C64-43B0-B03C-9CF08BED9089}"
 EndProject
 Global
