@@ -50,27 +50,16 @@ namespace Space_Robot
         }
 
         // measurements in meters per second squared (m/s²)
-        const double GravityOnMercury = 3.7;
-        const double GravityOnVenus = 8.87;
-        const double GravityOnEarth = 9.807;
-        const double GravityOnMars = 3.721;
-        const double GravityOnJupiter = 24.79;
-        const double GravityOnSaturn = 10.44;
-        const double GravityOnUranus = 8.87;
-        const double GravityOnNeptune = 11.15;
-        const double GravityOnPluto = 0.62;
-        const double GravityOnEarthMoon = 1.62;
-
-        [TestMethod] public void TestGravityOnMercury()   => Test(GravityOnMercury);
-        [TestMethod] public void TestGravityOnVenus()     => Test(GravityOnVenus);
-        [TestMethod] public void TestGravityOnEarth()     => Test(GravityOnEarth);
-        [TestMethod] public void TestGravityOnMars()      => Test(GravityOnMars);
-        [TestMethod] public void TestGravityOnJupiter()   => Test(GravityOnJupiter);
-        [TestMethod] public void TestGravityOnSaturn()    => Test(GravityOnSaturn);
-        [TestMethod] public void TestGravityOnUranus()    => Test(GravityOnUranus);
-        [TestMethod] public void TestGravityOnNeptune()   => Test(GravityOnNeptune);
-        [TestMethod] public void TestGravityOnPluto()     => Test(GravityOnPluto);
-        [TestMethod] public void TestGravityOnEarthMoon() => Test(GravityOnEarthMoon);
+        [TestMethod] public void TestGravityOnMercury()   => Test(3.7);
+        [TestMethod] public void TestGravityOnVenus()     => Test(8.87);
+        [TestMethod] public void TestGravityOnEarth()     => Test(9.807);
+        [TestMethod] public void TestGravityOnMars()      => Test(3.721);
+        [TestMethod] public void TestGravityOnJupiter()   => Test(24.79);
+        [TestMethod] public void TestGravityOnSaturn()    => Test(10.44);
+        [TestMethod] public void TestGravityOnUranus()    => Test(8.87);
+        [TestMethod] public void TestGravityOnNeptune()   => Test(11.15);
+        [TestMethod] public void TestGravityOnPluto()     => Test(0.62);
+        [TestMethod] public void TestGravityOnEarthMoon() => Test(1.62);
 
         static void Test(double gravity)
         {
